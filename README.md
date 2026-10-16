@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Bank Loan Approval System (SBLAS) — 10 Design Patterns
 
 Academic Java + SQLite web application. This is a demonstration project, **not production banking software**.
@@ -77,3 +78,7 @@ Submit an application and do not decide it. In the demo launcher, after roughly 
 - Email/SMS/App channels print demonstration notifications to the server console; they do not send real messages.
 - The app is bound to localhost. Do not expose it to the internet. Real banking requires a reviewed identity provider, per-user password salts, MFA, CSRF protection, secrets management, TLS, formal authorization, rate limiting across every endpoint, encrypted backups, monitoring, penetration testing and applicable regulatory compliance.
 - `Memento` snapshots store draft fields for recovery/audit demonstration. They are not allowed to roll back final approval decisions.
+=======
+# SBLAS---DP-Project
+A Smart Bank Loan Approval System built with Java, SQLite, JDBC, HTML, CSS, and JavaScript. Implements 10 design patterns—Proxy, Singleton, Abstract Factory, Chain of Responsibility, Bridge, Builder, Strategy, Mediator, Template Method, and Memento—with credit-risk assessment, fraud flags, role-based access, audit logging.
+>>>>>>> 19cc840d7f9e159b59277b83f0be21282667a52c
